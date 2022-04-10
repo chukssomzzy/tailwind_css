@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./index.css -o ./css/main.css",
+    "build": "CI= tailwindcss -i ./index.css -o ./css/main.css",
     "watch": "tailwindcss -i ./index.css -o ./css/main.css --watch",
     "start": "live-server"
     
